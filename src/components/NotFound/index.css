@@ -1,0 +1,44 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.about-dark-theme {
+  background-color: #000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-light-theme {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-image {
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .theme-image {
+    height: 200px;
+  }
+}
+
+.dark-theme-heading {
+  color: white;
+  font-size: bold;
+}
+
+.light-theme-heading {
+  font-size: bold;
+}
+
+.theme-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
